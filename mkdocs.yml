@@ -9,7 +9,16 @@ theme:
   logo: assets/images/logo-white.png
   favicon: assets/images/logo.png
   palette:
+  - media: "(prefers-color-scheme: light)"
     scheme: onebot
+    toggle:
+      icon: material/lightbulb-outline
+      name: "Switch to dark mode"
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/lightbulb
+      name: "Switch to light mode"
   features:
     - navigation.sections
     - navigation.tabs
