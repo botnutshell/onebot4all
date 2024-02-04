@@ -27,3 +27,21 @@
     --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
     --md-footer-bg-color: var(--color-midnight);
 }
+
+#logo_light {
+    display: var(--md-footer-logo-light);
+}
+
+#logo_dark {
+    display: var(--md-footer-logo-dark);
+}
+
+[data-md-color-scheme="onebot"] {
+    --md-footer-logo-dark:         none;
+    --md-footer-logo-light:         block;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-footer-logo-dark:         block;
+    --md-footer-logo-light:         none;
+}

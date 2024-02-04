@@ -6,18 +6,21 @@ docs_dir: specs
 theme:
   name: material
   language: zh
+  custom_dir: specs/overrides
   logo: assets/images/logo-white.png
+  logo_dark: assets/images/logo-black.png
   favicon: assets/images/logo.png
   palette:
   - media: "(prefers-color-scheme: light)"
     scheme: onebot
     toggle:
-      icon: material/lightbulb-outline
+      icon: material/weather-night
       name: "Switch to dark mode"
   - media: "(prefers-color-scheme: dark)"
+    primary: white
     scheme: slate
     toggle:
-      icon: material/lightbulb
+      icon: material/weather-sunny
       name: "Switch to light mode"
   features:
     - navigation.sections
