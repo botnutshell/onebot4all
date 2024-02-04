@@ -1,6 +1,6 @@
-site_name: OneBot 12 标准（候选）
-repo_name: botuniverse/onebot
-repo_url: https://github.com/botuniverse/onebot
+site_name: OneBot4All 标准
+repo_name: botnutshell/onebot4all
+repo_url: https://github.com/botnutshell/onebot4all
 edit_uri: blob/main/specs/
 docs_dir: specs
 theme:
@@ -23,11 +23,6 @@ markdown_extensions:
 extra:
   search:
     language: jp
-  analytics:
-    provider: google
-    property: G-RT0B6ZLNQH
-extra_javascript:
-  - assets/javascripts/config.js
 extra_css:
   - assets/stylesheets/extra.css
 

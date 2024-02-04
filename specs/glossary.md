@@ -25,6 +25,16 @@
 
 注意：不可以写做 Onebot 或 oneBot，标准写法是 OneBot，需要大小写时应视为一个单词，写做 ONEBOT 或 onebot，可简称 OB 或 ob。
 
+### OneBot V12
+
+顾名思义，OneBot V12 是 OneBot 的第 12 个版本，已经停留在草案阶段两年以上。
+
+可简称作 OB12 或 ob12。
+
+### OneBot4All
+
+读作 OneBot for All，可简称作 OB4A、ob4a 或 140。
+
 ## OneBot 标准（OneBot Standard）
 
 全称是 **OneBot 聊天机器人应用接口标准**（OneBot Chatbot API Standard）。
