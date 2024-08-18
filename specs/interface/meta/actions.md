@@ -89,7 +89,7 @@
 
 === "响应数据"
 
-    支持的动作名称列表，可以不包括 `get_latest_events`。
+    支持的动作名称列表。
 
 === "请求示例"
 
@@ -112,6 +112,43 @@
             "get_version",
             "send_message",
             "get_self_info"
+        ],
+        "message": ""
+    }
+    ```
+
+## `get_supported_message_segments` 获取支持的消息段列表
+
+=== "请求参数"
+
+    无。
+
+=== "响应数据"
+
+    所支持的消息段列表。
+
+=== "请求示例"
+
+    ```json
+    {
+        "action": "get_supported_actions",
+        "params": {
+            "self": "xxxxx"
+        }
+    }
+    ```
+
+=== "响应示例"
+
+    ```json
+    {
+        "status": "ok",
+        "retcode": 0,
+        "data": [
+            "text",
+            "mention",
+            "image",
+            "reply"
         ],
         "message": ""
     }

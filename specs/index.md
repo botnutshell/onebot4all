@@ -16,6 +16,14 @@ OneBot 是一个聊天机器人应用接口标准，旨在统一不同聊天平�
 
 如果你已经十分了解 OneBot V12，以下将简单列出本标准与之不同的内容：
 
+### 动作
+
+- [get_support_message_segments](./interface/meta/actions/#get_support_message_segments)
+
+### 消息段
+
+- [message_nodes](./interface/message/segments.md#message_nodes)
+
 ## 为什么要有 OneBot4All？
 
 OneBot V12 已经在草案阶段停留了两年以上。在这期间，虽然社区也不断涌现着不同平台的实现与各种语言的 LibOneBot，但加起来却仍比不过 OneBot V11 实现的增量。虽然开发者普遍有维持旧版的惯性，但望着[生态页面](https://onebot.dev/ecosystem.html)上寥寥可数的 6 个实现（其中仍在持续开发的两个同时支持 OneBot V11），想必都会得出这么一个结论——OneBot V12 是个不被社区认可的失败标准。我不是想指责 OneBot V12 的制定者，但这就是 OneBot 身为次世代标准却无法取代旧标准的窘境。

@@ -199,3 +199,52 @@
         }
     }
     ```
+
+## `message_nodes` 合并转发消息
+
+### `node` 数据数型
+
+字段名 | 数据类型 | 说明
+--- | --- | ---
+`user_id` | string | 该条消息的发送者
+`message` | message | 该条消息的内容
+
+=== "参数"
+
+    字段名 | 数据类型 | 说明
+    --- | --- | ---
+    `nodes` | list[`node`] | 合并转发消息中的每条消息组成的数组
+
+=== "示例"
+
+    ```json
+    {
+        "type": "message_nodes",
+        "data": {
+            "nodes": [
+                {
+                    "user_id": "10086",
+                    "message": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "text": "测试消息1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "user_id": "10087",
+                    "message": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "text": "测试消息2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    ```

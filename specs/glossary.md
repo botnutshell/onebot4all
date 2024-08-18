@@ -33,7 +33,7 @@
 
 ### OneBot4All
 
-读作 OneBot for All，可简称作 OB4A、ob4a 或 140。
+读作 OneBot for All，可简称作 OBA、ob4a 或 140。
 
 ## OneBot 标准（OneBot Standard）
 
